@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Big_easy_driver
+#
+DEF Big_easy_driver D 0 40 Y Y 1 F N
+F0 "D" -300 650 60 H V C CNN
+F1 "Big_easy_driver" 0 550 60 H V C CNN
+F2 "" 0 550 60 H V C CNN
+F3 "" 0 550 60 H V C CNN
+DRAW
+S -500 450 400 -550 0 1 0 N
+X A1 ~ 600 -200 200 L 50 50 1 1 I
+X A2 ~ 600 -300 200 L 50 50 1 1 I
+X B1 ~ 600 -400 200 L 50 50 1 1 I
+X B2 ~ 600 -500 200 L 50 50 1 1 I
+X Direction ~ -700 -300 200 R 50 50 1 1 I
+X Enable ~ -700 400 200 R 50 50 1 1 I
+X GND ~ -700 -500 200 R 50 50 1 1 I
+X M+ ~ 600 300 200 L 50 50 1 1 I
+X M_GND ~ 600 400 200 L 50 50 1 1 I
+X MS1 ~ -700 100 200 R 50 50 1 1 I
+X MS2 ~ -700 0 200 R 50 50 1 1 I
+X MS3 ~ -700 -100 200 R 50 50 1 1 I
+X Reset ~ -700 200 200 R 50 50 1 1 I
+X Sleep ~ -700 300 200 R 50 50 1 1 I
+X Step ~ -700 -200 200 R 50 50 1 1 I
+X Vcc ~ -700 -400 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
