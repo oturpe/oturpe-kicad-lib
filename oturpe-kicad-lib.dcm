@@ -1,3 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +18V
+K POWER, PWR
+$ENDCMP
+#
+$CMP 7805_oturpe
+D Linear Regulator +5V, pins numbered 1-2-3
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP isp_interface
+D Connector 02x03
+$ENDCMP
+#
+$CMP mp101301
+D south pole sensitive unipolar Hall effect switch
+$ENDCMP
+#
 #End Doc Library
