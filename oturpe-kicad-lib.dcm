@@ -10,6 +10,19 @@ K POWER REGUL
 F regulator\lm78xx.pdf
 $ENDCMP
 #
+$CMP Light_level_sensor
+D Prototransistor based light sensor
+$ENDCMP
+#
+$CMP NHD-12232AZ
+D NHD-12232AZ 122×32 dot matrix liquid crystal display
+F http://www.mouser.com/ds/2/291/NHD-12232AZ-FL-YBW-26441.pdf
+$ENDCMP
+#
+$CMP Opacity_sensor
+D Prototransistor based light sensor
+$ENDCMP
+#
 $CMP isp_interface
 D Connector 02x03
 $ENDCMP
