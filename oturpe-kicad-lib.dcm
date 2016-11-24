@@ -10,6 +10,38 @@ K POWER REGUL
 F regulator\lm78xx.pdf
 $ENDCMP
 #
+$CMP ANTENNA
+D Generic antenna symbol
+$ENDCMP
+#
+$CMP BA6956AN
+D 1.0A reversible dc motor driver
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/motor/dc/ba6956an-e.pdf
+$ENDCMP
+#
+$CMP Big_easy_driver
+D Stepper motor driver "Big easy driver"
+F http://www.schmalzhaus.com/BigEasyDriver/
+$ENDCMP
+#
+$CMP Bipolar_stepper
+D Generic bipolar stepper motor
+$ENDCMP
+#
+$CMP DC_motor
+D Generic dc motor
+$ENDCMP
+#
+$CMP Easy_driver
+D Stepper motor driver "Easy driver"
+F http://www.schmalzhaus.com/EasyDriver/
+$ENDCMP
+#
+$CMP LM35
+D LM35 Celsius based analog temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm35.pdf
+$ENDCMP
+#
 $CMP Light_level_sensor
 D Prototransistor based light sensor
 $ENDCMP
@@ -23,12 +55,18 @@ $CMP Opacity_sensor
 D Prototransistor based light sensor
 $ENDCMP
 #
+$CMP SN75176B
+D Differential bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75176b.pdf
+$ENDCMP
+#
 $CMP isp_interface
 D Connector 02x03
 $ENDCMP
 #
 $CMP mp101301
 D south pole sensitive unipolar Hall effect switch
+F http://www.mouser.com/ds/2/71/Magnetic-Proximity-Sensor-MP1013-Datasheet-540842.pdf
 $ENDCMP
 #
 #End Doc Library
