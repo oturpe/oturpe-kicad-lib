@@ -4,10 +4,17 @@ $CMP +18V
 K POWER, PWR
 $ENDCMP
 #
+#
 $CMP 7805_oturpe
 D Linear Regulator +5V, pins numbered 1-2-3
 K POWER REGUL
 F regulator\lm78xx.pdf
+$ENDCMP
+#
+#
+$CMP 7812_oturpe
+D Linear Regulator +12V, pins numbered 1-2-3
+K POWER
 $ENDCMP
 #
 $CMP ANTENNA
