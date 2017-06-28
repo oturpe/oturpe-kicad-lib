@@ -42,6 +42,10 @@ D Stepper motor driver "Easy driver"
 F http://www.schmalzhaus.com/EasyDriver/
 $ENDCMP
 #
+$CMP IGNITION
+D Ford -03 ignition coil pack
+$ENDCMP
+#
 $CMP LM35
 D LM35 Celsius based analog temperature sensor
 F http://www.ti.com/lit/ds/symlink/lm35.pdf
@@ -62,6 +66,11 @@ $ENDCMP
 #
 $CMP Opacity_sensor
 D Prototransistor based light sensor
+$ENDCMP
+#
+$CMP POLOLU_3101
+D Arduino Nano
+K arduino nano atmega328
 $ENDCMP
 #
 $CMP SN75176B
